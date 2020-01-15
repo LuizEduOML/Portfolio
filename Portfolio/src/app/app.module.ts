@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { HomeModule } from './home/home.module';
 import { ContatoModule } from './contato/contato.module';
+import { SobreMimModule } from './sobre-mim/sobre-mim.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContatoModule } from './contato/contato.module';
     BrowserAnimationsModule,
     CoreModule,
     HomeModule,
-    ContatoModule
+    ContatoModule,
+    SobreMimModule
   ],
   providers: [],
   bootstrap: [AppComponent]
