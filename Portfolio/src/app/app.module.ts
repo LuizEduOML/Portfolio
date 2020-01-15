@@ -4,21 +4,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderModule } from './header/header.module';
-import { HomeComponent } from './home/home.component';
-import { ContatoComponent } from './contato/contato.component';
+import { CoreModule } from './core/core.module';
+import { HomeModule } from './home/home.module';
+import { ContatoModule } from './contato/contato.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    ContatoComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HeaderModule
+    CoreModule,
+    HomeModule,
+    ContatoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

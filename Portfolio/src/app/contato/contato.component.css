@@ -1,0 +1,31 @@
+.content {
+    margin-top: 7.5vh;
+}
+
+.contato {
+    background-color: rgba(77, 111, 179);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    padding: 2em;
+    border-radius: 1em;
+    color: #F5F5F5;
+    margin-top: 10em;
+    margin-left: 10em;
+}
+
+.icon-button {
+    height: 3em;
+    width: 3em;
+    transition: 0.5s;
+}
+
+.icon-button:hover {
+    background-color: #0E174D;
+}
+
+.icon {
+    color: #F5F5F5;
+}
