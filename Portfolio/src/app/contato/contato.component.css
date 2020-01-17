@@ -4,14 +4,14 @@
 
 .contato {
     background-color: rgba(77, 111, 179);
+    color: #F5F5F5;
+    width: fit-content;
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    width: fit-content;
     padding: 2em;
     border-radius: 1em;
-    color: #F5F5F5;
     margin-top: 10em;
     margin-left: 10em;
 }

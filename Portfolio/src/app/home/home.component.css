@@ -1,9 +1,24 @@
-.home {
+.background {
     background-image: url("../../assets/img/home-page.jpg");
     background-position: 50% 75%;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
     width: 100vw;
     height: 100vh;
+    z-index: -1;
+    display: flex;
+}
+
+.home {
+    background-color: rgba(77, 111, 179, 0.6);
+    color: rgba(255, 255, 255, 1);
+    width: 25vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 1em;
+    margin-top: 7.5em;
+    margin-left: 7.5em;
 }

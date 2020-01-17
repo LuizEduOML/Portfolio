@@ -1,8 +1,36 @@
 .content {
     margin-top: 7.5vh;
+    display: flex;
+    justify-content: center;
 }
 
+.about-me {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.info {
+    width: 40vw;
+    margin-right: 1vw;
+    padding: 3vw;
+    background-color: white;
+    text-align: justify;
+    border-radius: 1em;
+}
+
+.como-trabalho {
+    margin-bottom: 2vw;
+    text-align: left;
+}
+
+.experiencia {}
+
 .profile-picture {
-    width: 25vw;
-    height: 50vh;
+    float: right;
+}
+
+.picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
