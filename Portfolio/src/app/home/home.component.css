@@ -14,7 +14,7 @@
     color: rgba(255, 255, 255, 1);
     width: 25vw;
     display: flex;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     flex-direction: column;
     padding: 2em;
