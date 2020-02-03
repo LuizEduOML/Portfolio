@@ -1,9 +1,10 @@
-.content {
-    margin-top: 7.5vh;
-    display: flex;
-    justify-content: center;
+/* Tags */
+mat-divider {
+    background-color: #4D6FB3;
+    margin: 4vh;
 }
 
+/* Classes */
 .about-me {
     display: flex;
     margin-top: 2vh;
@@ -22,7 +23,6 @@
 
 .como-trabalho {
     text-align: left;
-    margin-bottom: 3em;
 }
 
 .experiencia {}

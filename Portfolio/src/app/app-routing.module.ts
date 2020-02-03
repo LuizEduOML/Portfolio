@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { ContatoComponent } from './contato/contato.component';
 import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
 import { EmpresasComponent } from './empresas/empresas.component';
+import { ContatoComponent } from './contato/contato.component';
+import { NotFoundComponent } from './shared/components/not-found/not-found.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,7 @@ const routes: Routes = [
   /*{ path: 'projetos', component: ProjetosComponent },*/
   { path: 'empresas', component: EmpresasComponent },
   { path: 'contato', component: ContatoComponent },
-  /*{ path: 'not-found', component: NotFoundComponent }*/
+  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({

@@ -1,6 +1,4 @@
-/*
-Font style by Google
-*/
+/* Font style by Google */
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 *{
@@ -9,9 +7,7 @@ Font style by Google
 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-/*
-Scrollbar by Spemer
-*/
+/* Scrollbar by Spemer */
 body::-webkit-scrollbar {
     background-color:#fff;
     width:16px
@@ -29,9 +25,19 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-button {display:none}
 
-/*
-Background color
-*/
+/* Background color */
 body {
     background-color: #D1D1D1;
+}
+
+/* Margin top */
+.content {
+    margin-top: 7.5vh;
+}
+
+/* Margin top and content center */
+.content-center {
+    margin-top: 7.5vh;
+    display: flex;
+    justify-content: center;
 }
