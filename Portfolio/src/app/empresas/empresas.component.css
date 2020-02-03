@@ -1,0 +1,35 @@
+/* Tags */
+mat-divider {
+    background-color: #4D6FB3;
+}
+
+/* Classes */
+.content {
+    margin-top: 7.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.companies {
+    width: 60vw;
+    margin-top: 2vh;
+    margin-right: 1em;
+    padding: 0.5em 2em;
+    background-color: #F5F5F5;
+    text-align: justify;
+    border-radius: 1em;
+}
+
+.info {}
+
+.companie-brq {}
+
+.brq-logo-box {
+    float: left;
+    margin-right: 3vw;
+}
+
+.brq-logo {
+    width: 20vw;
+    height: 40vh;
+}

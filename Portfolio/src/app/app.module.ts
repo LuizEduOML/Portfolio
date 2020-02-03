@@ -8,10 +8,13 @@ import { CoreModule } from './core/core.module';
 import { HomeModule } from './home/home.module';
 import { ContatoModule } from './contato/contato.module';
 import { SobreMimModule } from './sobre-mim/sobre-mim.module';
+import { EmpresasModule } from './empresas/empresas.module';
+import { NotFoundComponent } from './shared/components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +23,8 @@ import { SobreMimModule } from './sobre-mim/sobre-mim.module';
     CoreModule,
     HomeModule,
     ContatoModule,
-    SobreMimModule
+    SobreMimModule,
+    EmpresasModule
   ],
   providers: [],
   bootstrap: [AppComponent]
