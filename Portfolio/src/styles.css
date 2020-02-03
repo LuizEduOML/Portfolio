@@ -7,11 +7,6 @@ Font style by Google
     font-family: 'Comfortaa', cursive;
 }
 
-html, body {
-    height: 100%;
-    background-color: #D1D1D1;
-}
-
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /*
@@ -33,3 +28,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-button {display:none}
+
+/*
+Background color
+*/
+body {
+    background-color: #D1D1D1;
+}
