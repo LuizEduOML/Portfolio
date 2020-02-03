@@ -9,18 +9,18 @@ import { HomeModule } from './home/home.module';
 import { ContatoModule } from './contato/contato.module';
 import { SobreMimModule } from './sobre-mim/sobre-mim.module';
 import { EmpresasModule } from './empresas/empresas.module';
-import { NotFoundComponent } from './shared/components/not-found/not-found.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NotFoundComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     CoreModule,
+    SharedModule,
     HomeModule,
     ContatoModule,
     SobreMimModule,
