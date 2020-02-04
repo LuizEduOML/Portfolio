@@ -5,11 +5,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { HomeModule } from './home/home.module';
-import { ContatoModule } from './contato/contato.module';
-import { SobreMimModule } from './sobre-mim/sobre-mim.module';
-import { EmpresasModule } from './empresas/empresas.module';
 import { SharedModule } from './shared/shared.module';
+import { HomeModule } from './home/home.module';
+import { SobreMimModule } from './sobre-mim/sobre-mim.module';
+import { ProjetosModule } from './projetos/projetos.module';
+import { EmpresasModule } from './empresas/empresas.module';
+import { ContatoModule } from './contato/contato.module';
 
 @NgModule({
   declarations: [
@@ -22,9 +23,10 @@ import { SharedModule } from './shared/shared.module';
     CoreModule,
     SharedModule,
     HomeModule,
-    ContatoModule,
     SobreMimModule,
-    EmpresasModule
+    ProjetosModule,
+    EmpresasModule,
+    ContatoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
