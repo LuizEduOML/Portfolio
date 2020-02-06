@@ -19,12 +19,24 @@ mat-divider {
 
 .companie-brq {}
 
-.brq-logo-box {
+.logo-box-brq {
     float: left;
     margin-right: 3vw;
+    height: 45vh;
 }
 
-.brq-logo {
+.logo-brq {
     width: 20vw;
     height: 40vh;
+}
+
+.logo-box-vertra {
+    float: left;
+    margin-right: 3vw;
+    height: 30vh;
+}
+
+.logo-vertra {
+    width: 20vw;
+    height: 15vh;
 }
